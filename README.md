@@ -1,74 +1,35 @@
 # 📱 AI Video Generator - Android Mobile App
-
-Ứng dụng di động Android cho phép người dùng tạo video bằng AI từ hình ảnh và nội dung mô tả. Mobile App đóng vai trò là client chính, kết nối với Core Backend và hệ thống AI Processing Server.
-
+ 
+Ứng dụng di động trên nền tảng Android, cho phép người dùng sáng tạo video hoàn chỉnh từ hình ảnh và văn bản nhờ sức mạnh của AI. Đây là Client chính kết nối trực tiếp với hệ sinh thái backend và AI server.
+ 
+## 🚀 Tính năng cốt lõi
+- **Đăng nhập thông minh:** Tích hợp xác thực an toàn qua Google Sign-In (OAuth 2.0).
+- **AI Video Studio:** Khởi tạo yêu cầu render video, lồng tiếng, lên kịch bản chỉ với 1 bức ảnh và ý tưởng ngắn.
+- **Ví Credit & Thanh toán:** Theo dõi số dư, nạp gói tín dụng (Credit Packages) và sử dụng mã khuyến mãi.
+- **Theo dõi thời gian thực:** Quản lý trạng thái xử lý video (Pending, Processing, Success).
+- **UX/UI Tối ưu:** Hỗ trợ đa ngôn ngữ, Dark Mode và cơ chế chặn spam request khi mạng yếu.
+## 🛠 Ngăn xếp công nghệ (Tech Stack)
+- **Ngôn ngữ:** Kotlin
+- **Kiến trúc/Mô hình:** MVVM / MVC (tùy thuộc vào thiết kế của bạn)
+- **Networking:** Retrofit2, OkHttp3
+- **Xử lý bất đồng bộ:** Kotlin Coroutines
+- **Trình phát Media:** Android Media3 / ExoPlayer
+- **Bảo mật:** Biến môi trường ẩn qua `local.properties` và `BuildConfig`
+## ⚙️ Hướng dẫn cài đặt (Chạy môi trường phát triển)
+ 
+1. Clone dự án về máy:
+```bash
+   git clone <repo_url>
+```
+ 
+2. Mở dự án bằng **Android Studio**.
+3. Tạo file `local.properties` ở thư mục gốc và cấu hình Client ID:
+```properties
+   GOOGLE_CLIENT_ID=your_google_client_id_here
+```
+ 
+4. Bấm **Sync Project with Gradle Files**.
+5. Chọn thiết bị ảo (Emulator) hoặc máy thật và bấm **Run** (Shift + F10).
 ---
-
-## 🚀 Tính năng
-
-- 🔐 **Đăng nhập Google**
-  - Xác thực người dùng thông qua Google Sign-In.
-  - Sử dụng OAuth 2.0.
-
-- 🎬 **AI Video Studio**
-  - Tạo video từ hình ảnh và mô tả bằng văn bản.
-  - Gửi yêu cầu xử lý video đến hệ thống backend.
-  - Theo dõi quá trình tạo video.
-
-- 💳 **Credit & Thanh toán**
-  - Hiển thị số dư Credit.
-  - Nạp Credit thông qua các gói được hệ thống cung cấp.
-  - Hỗ trợ sử dụng Promo Code.
-
-- 📊 **Theo dõi tiến trình**
-  - Theo dõi trạng thái xử lý:
-    - `Pending`
-    - `Processing`
-    - `Success`
-    - `Failed`
-
-- 🌍 **Trải nghiệm người dùng**
-  - Giao diện hiện đại.
-  - Hỗ trợ đa ngôn ngữ.
-  - Hỗ trợ Dark Mode.
-  - Xử lý các trường hợp mạng không ổn định.
-  - Hạn chế gửi request trùng lặp.
-
-- ▶️ **Video Player**
-  - Phát video trực tiếp trên ứng dụng.
-  - Sử dụng Android Media3 / ExoPlayer.
-
----
-
-## 🛠 Tech Stack
-
-| Thành phần | Công nghệ |
-|---|---|
-| Ngôn ngữ | Kotlin |
-| Kiến trúc | MVVM / MVC |
-| UI | Android XML |
-| Networking | Retrofit 2 + OkHttp 3 |
-| Async | Kotlin Coroutines |
-| Video Player | Android Media3 / ExoPlayer |
-| Authentication | Google Sign-In / OAuth 2.0 |
-| Security | `local.properties`, `BuildConfig` |
-
----
-
-## 📁 Project Structure
-
-```text
-app/
-├── src/
-│   └── main/
-│       ├── java/
-│       │   └── ...
-│       ├── res/
-│       │   ├── drawable/
-│       │   ├── layout/
-│       │   ├── values/
-│       │   └── values-vi/
-│       └── AndroidManifest.xml
-│
-├── build.gradle.kts
-└── proguard-rules.pro
+ 
+*Dự án thuộc Hệ sinh thái AI Video Generator.*
