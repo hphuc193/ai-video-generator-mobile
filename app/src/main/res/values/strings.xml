@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">AI Video Studio</string>
+    <string name="title_home">Trang chủ</string>
+    <string name="create_video">TẠO VIDEO MỚI</string>
+    <!-- Màn hình Trang Chủ (Home) -->
+    <string name="credit_balance">Số dư Credit:</string>
+    <string name="view_all">Xem tất cả</string>
+    <string name="recent_projects">Dự án gần đây</string>
+
+    <!-- Màn hình Tạo Video -->
+    <string name="tap_to_select_image">Chạm để chọn ảnh bắt đầu</string>
+    <string name="hint_video_idea">Mô tả ý tưởng video...</string>
+    <string name="video_duration">Thời lượng video:</string>
+    <string name="four_seconds">4 Giây</string>
+    <string name="six_seconds">6 Giây</string>
+    <string name="eight_seconds">8 Giây</string>
+    <string name="resolution">Độ phân giải:</string>
+    <string name="aspect_ratio">Tỉ lệ khung hình:</string>
+    <string name="create_video_btn">TẠO VIDEO</string>
+    <string name="horizontal_16_9">Ngang (16:9)</string>
+    <string name="vertical_9_16">Dọc (9:16)</string>
+
+    <!-- Màn hình Nạp Credit (Ví) -->
+    <string name="manage_balance_transactions">Quản lý số dư và giao dịch</string>
+    <string name="current_balance">Số dư hiện tại</string>
+    <string name="available_balance">Số dư khả dụng</string>
+    <string name="top_up_credit">Nạp Credit</string>
+    <string name="history">Lịch sử</string>
+    <string name="select_credit_package">Chọn gói Credit</string>
+    <string name="loading">Đang tải...</string>
+    <string name="promo_code">Mã khuyến mãi</string>
+    <string name="view_code">Xem mã</string>
+    <string name="enter_promo_receive_credit">Nhập mã để nhận thêm Credit</string>
+    <string name="hint_promo_code">Nhập mã khuyến mãi</string>
+    <string name="credit_packages">GÓI CREDIT</string>
+    <string name="credit_used_for_ai">Credit sử dụng cho AI Video</string>
+    <string name="buy_package">Mua gói</string>
+    <string name="apply_code">ÁP DỤNG MÃ</string>
+    <string name="history_transaction">Lịch sử giao dịch</string>
+    <string name="no_have_transaction">Chưa có giao dịch nào</string>
+
+    <!-- Màn hình Đăng Nhập -->
+    <string name="login_subtitle">Đăng nhập để tiếp tục sáng tạo những video tuyệt vời bằng AI.</string>
+    <string name="hint_email">Email của bạn</string>
+    <string name="hint_password">Nhập mật khẩu</string>
+    <string name="login_btn">ĐĂNG NHẬP</string>
+    <string name="login_google_btn">ĐĂNG NHẬP BẰNG GOOGLE</string>
+    <string name="no_account_register">Chưa có tài khoản? Đăng ký ngay</string>
+
+    <!-- Màn hình Đăng Ký -->
+    <string name="create_account">Tạo tài khoản</string>
+    <string name="register_subtitle">Bắt đầu hành trình sáng tạo video AI</string>
+    <string name="hint_fullname">Họ và tên</string>
+    <string name="hint_email_simple">Email</string>
+    <string name="hint_password_simple">Mật khẩu</string>
+    <string name="hint_promo_optional">Mã khuyến mãi (Nếu có)</string>
+    <string name="register_btn">ĐĂNG KÝ</string>
+    <string name="already_have_account_login">Đã có tài khoản? Đăng nhập</string>
+
+    <!-- Màn hình Hồ sơ (Profile) -->
+    <string name="personal_profile">Hồ sơ cá nhân</string>
+    <string name="username">Tên người dùng</string>
+    <string name="account_management">Quản lý tài khoản</string>
+    <string name="update_info_password">Cập nhật thông tin &amp; Mật khẩu</string>
+    <string name="my_credit_wallet">Ví Credit của tôi</string>
+    <string name="system_settings">Cài đặt hệ thống</string>
+    <string name="dark_mode">Giao diện tối (Dark Mode)</string>
+    <string name="language">Ngôn ngữ</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="update_profile">Cập nhật hồ sơ</string>
+    <string name="hint_new_display_name">Tên hiển thị mới</string>
+    <string name="hint_dob">Ngày sinh (YYYY-MM-DD)</string>
+    <string name="hint_new_password">Mật khẩu mới (Bỏ trống nếu giữ nguyên)</string>
+    <string name="save_changes_btn">LƯU THAY ĐỔI</string>
+
+    <!-- Màn hình Quản lý Dự án -->
+    <string name="project_management">Quản lý dự án</string>
+    <string name="hint_search_video">Tìm kiếm theo mô tả video...</string>
+    <string name="filter_all">Tất cả</string>
+    <string name="filter_completed">Hoàn thành</string>
+    <string name="filter_creating">Đang tạo</string>
+    <string name="filter_canceled">Đã hủy</string>
+
+    <!-- Màn hình Chờ Video (Loading) -->
+    <string name="creating_video">Đang tạo video...</string>
+    <string name="please_wait_creating">Vui lòng đợi trong khi chúng tôi hiện thực hóa ý tưởng của bạn.</string>
+    <string name="preparing">Đang chuẩn bị...</string>
+    <string name="about_2_minutes">Khoảng 2 phút nữa</string>
+    <string name="estimated_completion_time">Thời gian hoàn thành ước tính</string>
+    <string name="cancel_process">Hủy bỏ\nTiến trình này sẽ bị hủy</string>
+
+    <!-- Trạng thái Video -->
+    <string name="status_success">Hoàn thành</string>
+    <string name="status_pending">Đang tạo</string>
+    <string name="status_failed">Đã hủy</string>
+
+    <!-- Hộp thoại & Menu Xóa -->
+    <string name="menu_delete">Xóa dự án</string>
+    <string name="dialog_delete_title">Xóa dự án</string>
+    <string name="dialog_delete_message">Bạn có chắc chắn muốn xóa video này không? Dữ liệu sẽ bị xóa vĩnh viễn.</string>
+    <string name="btn_delete">Xóa</string>
+    <string name="btn_cancel">Hủy</string>
+
+    <!-- Màn hình Credit / Gói cước / Khuyến mãi -->
+    <string name="no_packages_available">Hiện chưa có gói credit</string>
+    <string name="no_promotions_available">Hiện chưa có mã khuyến mãi nào</string>
+    <string name="packages_count_format">%d gói đang có sẵn</string>
+    <string name="num_transactions">giao dịch</string>
+    <string name="close_tab">đóng</string>
+    <string name="unable_load_promotions.">Không thể tải khuyến mãi</string>
+    <string name="copied_code">Đã sao chép mã %s</string>
+    <string name="use_btn">SỬ DỤNG</string>
+    <string name="Please_select_photo">Vui lòng chọn 1 bức ảnh!</string>
+    <string name="Please_enter_idea">Vui lòng nhập mô tả ý tưởng!</string>
+    <string name="uploading">ĐANG TẢI ẢNH LÊN...</string>
+    <string name="activating_veo">ĐANG KÍCH HOẠT VEO...</string>
+    <string name="create_video_ai">Tạo Video AI</string>
+
+
+    <string name="available_credits">Số dư credit</string>
+    <string name="credits">CREDIT</string>
+    <string name="create_video_subtitle">Biến ý tưởng của bạn thành video bằng AI</string>
+
+
+</resources>

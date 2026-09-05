@@ -1,0 +1,3 @@
+# Đây là file mẫu. Hãy copy nội dung file này sang file local.properties
+# và thay thế bằng Client ID thật của bạn.
+GOOGLE_CLIENT_ID=YOUR_GOOGLE_CLIENT_ID_HERE

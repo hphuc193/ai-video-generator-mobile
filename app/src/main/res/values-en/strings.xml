@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">AI Video Studio</string>
+    <string name="title_home">Home</string>
+    <string name="create_video">CREATE NEW VIDEO</string>
+    <!-- Màn hình Trang Chủ (Home) -->
+    <string name="credit_balance">Credit Balance:</string>
+    <string name="view_all">View all</string>
+    <string name="recent_projects">Recent projects</string>
+
+    <!-- Màn hình Tạo Video -->
+    <string name="tap_to_select_image">Tap to select starting image</string>
+    <string name="hint_video_idea">Describe your video idea...</string>
+    <string name="video_duration">Video duration:</string>
+    <string name="four_seconds">4 Seconds</string>
+    <string name="six_seconds">6 Seconds</string>
+    <string name="eight_seconds">8 Seconds</string>
+    <string name="resolution">Resolution:</string>
+    <string name="aspect_ratio">Aspect ratio:</string>
+    <string name="create_video_btn">CREATE VIDEO</string>
+    <string name="horizontal_16_9">Horizontal (16:9)</string>
+    <string name="vertical_9_16">Vertical (9:16)</string>
+
+    <!-- Màn hình Nạp Credit (Ví) -->
+    <string name="manage_balance_transactions">Manage balance and transactions</string>
+    <string name="current_balance">Current balance</string>
+    <string name="available_balance">Available balance</string>
+    <string name="top_up_credit">Top up Credit</string>
+    <string name="history">History</string>
+    <string name="select_credit_package">Select Credit package</string>
+    <string name="loading">Loading...</string>
+    <string name="promo_code">Promo code</string>
+    <string name="view_code">View code</string>
+    <string name="enter_promo_receive_credit">Enter code to receive more Credit</string>
+    <string name="hint_promo_code">Enter promo code</string>
+    <string name="credit_packages">CREDIT PACKAGES</string>
+    <string name="credit_used_for_ai">Credits used for AI Video</string>
+    <string name="buy_package">Buy package</string>
+    <string name="apply_code">APPLY CODE</string>
+    <string name="history_transaction">Transaction history</string>
+    <string name="no_have_transaction">No transactions yet.</string>
+
+    <!-- Màn hình Đăng Nhập -->
+    <string name="login_subtitle">Log in to continue creating amazing AI videos.</string>
+    <string name="hint_email">Your email</string>
+    <string name="hint_password">Enter password</string>
+    <string name="login_btn">LOG IN</string>
+    <string name="login_google_btn">LOG IN WITH GOOGLE</string>
+    <string name="no_account_register">Don\'t have an account? Register now</string>
+
+    <!-- Màn hình Đăng Ký -->
+    <string name="create_account">Create account</string>
+    <string name="register_subtitle">Start your AI video creation journey</string>
+    <string name="hint_fullname">Full name</string>
+    <string name="hint_email_simple">Email</string>
+    <string name="hint_password_simple">Password</string>
+    <string name="hint_promo_optional">Promo code (Optional)</string>
+    <string name="register_btn">REGISTER</string>
+    <string name="already_have_account_login">Already have an account? Log in</string>
+
+    <!-- Màn hình Hồ sơ (Profile) -->
+    <string name="personal_profile">Personal Profile</string>
+    <string name="username">Username</string>
+    <string name="account_management">Account management</string>
+    <string name="update_info_password">Update info &amp; Password</string>
+    <string name="my_credit_wallet">My Credit Wallet</string>
+    <string name="system_settings">System settings</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="language">Language</string>
+    <string name="logout">Log out</string>
+    <string name="update_profile">Update profile</string>
+    <string name="hint_new_display_name">New display name</string>
+    <string name="hint_dob">Date of birth (YYYY-MM-DD)</string>
+    <string name="hint_new_password">New password (Leave blank to keep current)</string>
+    <string name="save_changes_btn">SAVE CHANGES</string>
+
+    <!-- Màn hình Quản lý Dự án -->
+    <string name="project_management">Project Management</string>
+    <string name="hint_search_video">Search by video description...</string>
+    <string name="filter_all">All</string>
+    <string name="filter_completed">Completed</string>
+    <string name="filter_creating">Creating</string>
+    <string name="filter_canceled">Canceled</string>
+
+    <!-- Màn hình Chờ Video (Loading) -->
+    <string name="creating_video">Creating video...</string>
+    <string name="please_wait_creating">Please wait while we bring your vision to life.</string>
+    <string name="preparing">Preparing...</string>
+    <string name="about_2_minutes">About 2 minutes left</string>
+    <string name="estimated_completion_time">Estimated completion time</string>
+    <string name="cancel_process">Cancel\nThis process will be discarded</string>
+
+    <!-- Trạng thái Video -->
+    <string name="status_success">Completed</string>
+    <string name="status_pending">Creating</string>
+    <string name="status_failed">Canceled</string>
+
+    <!-- Hộp thoại & Menu Xóa -->
+    <string name="menu_delete">Delete project</string>
+    <string name="dialog_delete_title">Delete project</string>
+    <string name="dialog_delete_message">Are you sure you want to delete this video? This data will be permanently deleted.</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <!-- Màn hình Credit / Gói cước / Khuyến mãi -->
+    <string name="no_packages_available">No credit packages available</string>
+    <string name="no_promotions_available">No promotions available</string>
+    <string name="packages_count_format">%d packages available</string>
+    <string name="num_transactions">transactions</string>
+    <string name="close_tab">close</string>
+    <string name="unable_load_promotions.">Unable to load promotions.</string>
+    <string name="copied_code">Code copied %s</string>
+    <string name="use_btn">USE</string>
+    <string name="Please_select_photo">Please select a photo!</string>
+    <string name="Please_enter_idea">Please enter a description of the idea!</string>
+    <string name="uploading">UPLOADING IMAGE..</string>
+    <string name="activating_veo">ACTIVATING VEO...</string>
+    <string name="create_video_ai">Create Video AI</string>
+
+    <string name="available_credits">Available credits</string>
+    <string name="credits">CREDITS</string>
+    <string name="create_video_subtitle">Turn your ideas into video with AI</string>
+
+
+
+</resources>

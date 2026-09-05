@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_light"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Tiêu đề -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="@string/update_profile"
+        android:textColor="@color/text_main_light"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Khu vực AVATAR (Có dấu + nhỏ bên góc) -->
+    <FrameLayout
+        android:id="@+id/layoutEditAvatar"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp">
+
+        <ImageView
+            android:id="@+id/imgEditAvatar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_input_rounded"
+            android:padding="20dp"
+            android:src="@android:drawable/ic_menu_camera"
+            app:tint="@color/text_sub_light" />
+
+        <!-- Dấu "+" nhỏ ở góc phải dưới -->
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_gravity="bottom|end"
+            android:background="@drawable/bg_floating_nav"
+            android:padding="4dp"
+            android:src="@android:drawable/ic_input_add"
+            app:tint="@color/primary_blue" />
+    </FrameLayout>
+
+    <!-- Ô nhập Tên -->
+    <EditText
+        android:id="@+id/edtEditName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/bg_input_rounded"
+        android:drawableStart="@drawable/baseline_edit_24"
+        android:drawablePadding="12dp"
+        android:hint="@string/hint_new_display_name"
+        android:inputType="textPersonName"
+        android:paddingHorizontal="16dp"
+        android:textColor="@color/text_main_light" />
+
+    <!-- Ô chọn Ngày Sinh (Chỉ bấm, không gõ) -->
+    <EditText
+        android:id="@+id/edtEditDob"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/bg_input_rounded"
+        android:clickable="true"
+        android:cursorVisible="false"
+        android:drawableStart="@drawable/baseline_calendar_month_24"
+        android:drawablePadding="12dp"
+        android:focusable="false"
+        android:hint="@string/hint_dob"
+        android:inputType="none"
+        android:paddingHorizontal="16dp"
+        android:textColor="@color/text_main_light" />
+
+    <!-- Ô nhập Mật khẩu -->
+    <EditText
+        android:id="@+id/edtEditPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/bg_input_rounded"
+        android:drawableStart="@drawable/baseline_lock_24"
+        android:drawablePadding="12dp"
+        android:hint="@string/hint_new_password"
+        android:inputType="textPassword"
+        android:paddingHorizontal="16dp"
+        android:textColor="@color/text_main_light" />
+
+    <!-- Nút Lưu -->
+    <Button
+        android:id="@+id/btnSaveProfile"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_btn_gradient"
+        android:text="@string/save_changes_btn"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:backgroundTint="@null" />
+</LinearLayout>

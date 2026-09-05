@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_light">
+
+    <!-- ============================= -->
+    <!-- VÒNG SÁNG TRANG TRÍ -->
+    <!-- ============================= -->
+
+    <View
+        android:id="@+id/glowCircle1"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:alpha="0.08"
+        android:background="@drawable/bg_splash_glow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/glowCircle2"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:alpha="0.06"
+        android:background="@drawable/bg_splash_glow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <!-- ============================= -->
+    <!-- LOGO -->
+    <!-- ============================= -->
+
+    <LinearLayout
+        android:id="@+id/logoContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <FrameLayout
+            android:layout_width="92dp"
+            android:layout_height="92dp"
+            android:background="@drawable/bg_splash_logo">
+
+            <ImageView
+                android:id="@+id/imgLogo"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:layout_gravity="center"
+                android:contentDescription="AI.Video Studio"
+                android:src="@drawable/baseline_auto_awesome_24"
+                app:tint="@color/primary_blue" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+    <!-- ============================= -->
+    <!-- TÊN APP -->
+    <!-- ============================= -->
+
+    <TextView
+        android:id="@+id/tvLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:alpha="0"
+        android:gravity="center"
+        android:text="AI.Video Studio"
+        android:textColor="@color/primary_blue"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logoContainer" />
+
+
+    <!-- ============================= -->
+    <!-- TAGLINE -->
+    <!-- ============================= -->
+
+    <TextView
+        android:id="@+id/tvTagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:alpha="0"
+        android:gravity="center"
+        android:text="Biến ý tưởng thành video bằng AI"
+        android:textColor="@color/text_sub_light"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvLogo" />
+
+
+    <!-- ============================= -->
+    <!-- LOADING -->
+    <!-- ============================= -->
+
+    <LinearLayout
+        android:id="@+id/progressContainer"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:alpha="0"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTagline">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="150dp"
+            android:layout_height="4dp"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/primary_blue"
+            android:max="100"
+            android:progress="60" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Đang khởi động..."
+            android:textColor="@color/text_sub_light"
+            android:textSize="11sp" />
+
+    </LinearLayout>
+
+
+    <!-- ============================= -->
+    <!-- FOOTER -->
+    <!-- ============================= -->
+
+    <TextView
+        android:id="@+id/tvPowered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:alpha="0"
+        android:text="POWERED BY AI"
+        android:textColor="@color/text_sub_light"
+        android:textSize="10sp"
+        android:letterSpacing="0.15"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

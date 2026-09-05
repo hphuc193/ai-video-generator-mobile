@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Chữ khi bị khóa -->
+    <item android:state_enabled="false" android:color="#BDBDBD" />
+    <!-- Chữ khi được chọn (Màu trắng) -->
+    <item android:state_checked="true" android:color="@color/white" />
+    <!-- Chữ mặc định -->
+    <item android:color="@color/text_main_light" />
+</selector>

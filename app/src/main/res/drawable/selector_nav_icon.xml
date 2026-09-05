@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Khi được chọn: Màu xanh chủ đạo -->
+    <item android:state_checked="true" android:color="@color/primary_blue" />
+    <!-- Mặc định: Màu xám nhạt -->
+    <item android:color="@color/text_sub_light" />
+</selector>

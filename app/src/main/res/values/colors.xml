@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tông màu chủ đạo -->
+    <color name="primary_blue">#652CEA</color>
+    <color name="primary_light">#85C1E9</color>
+
+    <!-- Tông màu Sáng (Light Mode) -->
+    <color name="bg_light">#FFFFFF</color>
+    <color name="text_main_light">#212121</color>
+    <color name="text_sub_light">#757575</color>
+    <color name="input_bg_light">#F5F7FA</color>
+    <color name="input_stroke_light">#E0E0E0</color>
+    <color name="dark_bg">#121212</color>
+    <color name="bg_secondary_light">#F1F3F6</color>
+    <color name="bg_input_light">#EEF1F5</color>
+    <color name="text_secondary_light">#6B7280</color>
+    <color name="red_gg">#DA1D5E</color>
+    <color name="start_gg">#E186EF</color>
+    <color name="select_chip">#F0F0F0</color>
+    <color name="select_nav">#E8F0FE</color>
+
+    <color name="white">#FFFFFF</color>
+</resources>
