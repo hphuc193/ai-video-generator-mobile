@@ -1,6 +1,8 @@
 # 📱 AI Video Generator - Android Mobile App
  
 Ứng dụng di động trên nền tảng Android, cho phép người dùng sáng tạo video hoàn chỉnh từ hình ảnh và văn bản nhờ sức mạnh của AI. Đây là Client chính kết nối trực tiếp với hệ sinh thái backend và AI server.
+
+ <img width="1772" height="985" alt="Image" src="https://github.com/user-attachments/assets/44ed8618-af82-4d14-b40e-b5dca954788b" />
  
 ## 🚀 Tính năng cốt lõi
 - **Đăng nhập thông minh:** Tích hợp xác thực an toàn qua Google Sign-In (OAuth 2.0).
