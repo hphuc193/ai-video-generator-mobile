@@ -34,7 +34,7 @@
 5. Chọn thiết bị ảo (Emulator) hoặc máy thật và bấm **Run** (Shift + F10).
 ---
  
-*Dự án thuộc Hệ sinh thái AI Video Generator.*
+*Dự án thuộc Hệ sinh thái AI Video Generator:*
 
 https://github.com/hphuc193/video-ai-backend
 
