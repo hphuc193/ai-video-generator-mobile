@@ -35,3 +35,10 @@
 ---
  
 *Dự án thuộc Hệ sinh thái AI Video Generator.*
+
+https://github.com/hphuc193/video-ai-backend
+
+https://github.com/hphuc193/ai-video-python-server
+
+https://github.com/hphuc193/video-ai-admin
+
